@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 650px;
+  width: 100%;
+  height: 690px;
+  padding: 90px 60px 70px 60px;
+}
+
+.cities {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fra {
+  display: flex;
+  flex-direction: column;
+  margin-right: 140px;
+}
+
+.fra-name {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 70px;
+  color: blue;
+}
+
+.fra-name::after {
+  content: '';
+  width: 45px;
+  height: 10px;
+  background-color: lightblue;
+  position: absolute;
+  top: 20%;
+  margin-left: 50px;
+}
+
+.fra-city {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.ams {
+  display: flex;
+  flex-direction: column;
+}
+
+.ams-name {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 70px;
+  color: blue;
+}
+
+.ams-city {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.container-list {
+  margin-top: 0;
+  padding-top: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.container-list-item {
+  margin-right: 130px;
+}
+
+.list-item-text {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.item-text-price{
+  color: #000;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-info-list {
+  list-style: none;
+}
+
+.about-info-item {
+  margin: 0;
+  padding: 0;
+}
+
+.about-info-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.about-info-title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.about-info-text {
+  margin: 0;
+  padding: 0;
+}
